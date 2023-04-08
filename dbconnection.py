@@ -12,7 +12,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 # Create database connection
-engine = create_engine('postgresql://postgres:postgres@127.0.0.1:5432/demo')
+engine = create_engine('postgresql://postgres:password@mypostgres:5432/mydatabase')
 Session = sessionmaker(bind=engine)
 
 # Create declarative base
@@ -20,7 +20,6 @@ Base = declarative_base()
 
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
-app.secret_key = "my_secret_key"
 
 # Github OAuth settings
 CLIENT_ID = 'cb02994933b0febfa39c'
