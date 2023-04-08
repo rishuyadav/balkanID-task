@@ -1,0 +1,849 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2023 22:07:05] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2023 22:07:07] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2023 22:07:08] "[32mGET /oauth/callback?code=f0837d2e18abc737f0a7 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2023 22:07:10] "GET /fetch_data HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Home page accessed.
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\flask_compress\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\flatbuffers\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\fontTools\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\jinja2\\environment.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\fontTools\\misc\\loggingTools.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\fqdn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gast\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\exc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\jinja2\\loaders.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gitdb\\exc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\objects\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\objects\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\objects\\blob.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\objects\\commit.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\objects\\submodule\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\objects\\submodule\\root.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\objects\\tag.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\objects\\tree.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\refs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\refs\\symbolic.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\refs\\reference.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\refs\\head.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\refs\\tag.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\refs\\remote.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\refs\\log.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\diff.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\db.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\remote.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\index\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\index\\base.py', reloading
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:02:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\index\\typ.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gitdb\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\objects\\submodule\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\git\\objects\\submodule\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gitdb\\db\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gitdb\\db\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gitdb\\db\\loose.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gitdb\\db\\mem.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gitdb\\db\\pack.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gitdb\\db\\git.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gitdb\\db\\ref.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gitdb\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\google_auth_oauthlib\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\google_auth_oauthlib\\interactive.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\google_crc32c\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\google_trans_new\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\greenlet\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\grpc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\grpc\\_runtime_protos.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gtts\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\gtts\\tts.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\h11\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\h11\\_connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\h11\\_events.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\h11\\_state.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\h11\\_util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\h5py\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\idna\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\ifaddr\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\ifaddr\\_shared.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\ifaddr\\_win32.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\imageio\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\importlib_metadata\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\importlib_metadata\\_meta.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\imutils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\ipykernel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\IPython\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\ipython_genutils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\isoduration\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\isoduration\\formatter\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\isoduration\\formatter\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\isoduration\\parser\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\isoduration\\parser\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\itsdangerous\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\itsdangerous\\encoding.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\itsdangerous\\exc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\itsdangerous\\serializer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\itsdangerous\\signer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\itsdangerous\\timed.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\itsdangerous\\url_safe.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\jax\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\constants\\_constants.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\fft\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\fft\\_basic.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\fft\\_realtransforms.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\fft\\_fftlog.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\fft\\_fftlog_multimethods.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\fft\\_helper.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\fft\\_backend.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\fft\\_pocketfft\\helper.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\integrate\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\integrate\\_quadrature.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\integrate\\_odepack_py.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\integrate\\_quadpack_py.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\integrate\\_ode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\io\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\misc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\misc\\_common.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\ndimage\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\ndimage\\_filters.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\ndimage\\_fourier.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\ndimage\\_interpolation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\ndimage\\_measurements.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\ndimage\\_morphology.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\odr\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\odr\\_odrpack.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\odr\\_models.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\_waveforms.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\_bsplines.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\_filter_design.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\_fir_filter_design.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\_ltisys.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\_lti_conversion.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\_signaltools.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\_spectral_py.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\_wavelets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\_peak_finding.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\signal\\_czt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\spatial\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\spatial\\_kdtree.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\spatial\\_plotutils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\scipy\\__config__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\seaborn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\secretsharing\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\semver\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\shellescape\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\skimage\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\smmap\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\sniffio\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\sniffio\\_impl.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\sortedcontainers\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\sortedcontainers\\sortedlist.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\sortedcontainers\\sortedset.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\sortedcontainers\\sorteddict.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\soupsieve\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\soupsieve\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\sqlparse\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\stack_data\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit\\echo.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit\\elements\\spinner.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit\\commands\\page_config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit\\commands\\execution_control.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit_webrtc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit_webrtc\\component.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit_webrtc\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit_webrtc\\factory.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit_webrtc\\mix.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit_webrtc\\webrtc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit_webrtc\\models.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\streamlit_webrtc\\receive.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\tensorboard\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\tensorboard_data_server\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\tensorflow\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\tinycss2\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\tlz\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\toolz\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\tornado\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\traitlets\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\traitlets\\traitlets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\trio\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\trio_websocket\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\tzdata\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\uri_template\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\uri_template\\expansions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\uri_template\\uritemplate.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\uri_template\\variable.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\validators\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\validators\\card.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\validators\\extremes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\validators\\hashes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\validators\\i18n\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\validators\\i18n\\fi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\validators\\ip_address.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\validators\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\virtualenv\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\virtualenv\\run\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\virtualenv\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\watchdog\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\wcwidth\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\wcwidth\\wcwidth.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\wcwidth\\unicode_versions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\webdriver_manager\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\webencodings\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\websocket\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\websockets\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\werkzeug\\serving.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\werkzeug\\test.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\wheel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\winpty\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\wrapt\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\wsproto\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\wsproto\\connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\xlrd\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\xlrd\\formula.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\xlrd\\timemachine.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\zmq\\constants.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\zmq\\error.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\zmq\\sugar\\context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\zmq\\sugar\\frame.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\zmq\\sugar\\poll.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\zmq\\sugar\\socket.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\zmq\\sugar\\tracker.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\zmq\\sugar\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\pythonwin\\pywin\\__init__.py', reloading
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:02:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:02:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Home page accessed.
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:04:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:04:48] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:04:49] "[32mGET /oauth/callback?code=6feb83b561e191ef7534 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:04:50] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:06:59] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:07:01] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:07:09] "[32mGET /oauth/callback?code=0a8173c5fc779361420f HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:07:10] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:09:55] "GET / HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:11:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:12:01] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:12:01] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:12:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:12:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:15:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:15:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:15:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:15:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:15:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:25:21] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:25:21] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:25:21] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:25:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:25:23] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:25:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:25:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:25:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:25:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:25:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:30:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:30:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:30:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:30:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:30:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\psycopg2\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:34:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:37:07] "GET / HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:40:17] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:40:27] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:40:29] "[32mGET /oauth/callback?code=37423812dd2f5d7c4226 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:40:30] "GET /fetch_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\requests\\api.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Home page accessed.
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:48:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:48:58] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:49:02] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:49:03] "[32mGET /oauth/callback?code=d8ad9362f1ef1d50386f HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+ERROR:root:An error occurred while writing data to CSV: base.html
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:49:04] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:49:44] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:49:45] "[32mGET /oauth/callback?code=e449945f3316877dc6e4 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+ERROR:root:An error occurred while writing data to CSV: base.html
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:49:46] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:59:44] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:59:46] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:59:47] "[32mGET /oauth/callback?code=d2450b47a050cde2b2d0 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+ERROR:root:An error occurred while writing data to CSV: base.html
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 07:59:48] "GET /fetch_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\requests\\exceptions.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\flask\\globals.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\werkzeug\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\werkzeug\\sansio\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\flask\\wrappers.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Detected change in 'C:\\Users\\Rishu Yadav\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\werkzeug\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Home page accessed.
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:09:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:09:41] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\shlex.py', reloading
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:09:42] "[32mGET /oauth/callback?code=75ccb45aad949df40153 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+ERROR:root:An error occurred while writing data to CSV: base.html
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:09:46] "GET /fetch_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:10:22] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:10:23] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:10:24] "[32mGET /oauth/callback?code=9a5f9e480c27f6fec8a9 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:10:26] "GET /fetch_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:12:36] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:12:38] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:12:39] "[32mGET /oauth/callback?code=8d2f3256a13b5422208e HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:12:40] "GET /fetch_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:12:45] "[31m[1mPOST /fetch_data HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:12:59] "[31m[1mPOST /fetch_data HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:16:31] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:16:32] "[32mGET /oauth/callback?code=a37c579977212f9c3446 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:16:34] "GET /fetch_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:16:38] "[31m[1mPOST /fetch_data HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:17:48] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:17:49] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:17:51] "[32mGET /oauth/callback?code=759822df5217fee82ee6 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:17:52] "GET /fetch_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:17:53] "[31m[1mPOST /fetch_data HTTP/1.1[0m" 405 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:28:06] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:28:08] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:28:14] "[32mGET /oauth/callback?code=0cfea39e12c6699e4ab3 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:28:15] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:29:34] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:29:36] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:29:37] "[32mGET /oauth/callback?code=a2dd3be0ef9c462d716e HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:29:38] "GET /fetch_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:29:39] "GET /download_csv HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:32:41] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:32:45] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:32:46] "[32mGET /oauth/callback?code=53809bae00e1f1146ab8 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+ERROR:root:An error occurred while writing data to CSV: Encountered unknown tag 'endif'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:32:47] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:33:18] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:33:35] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:33:45] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:33:48] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:33:49] "[32mGET /oauth/callback?code=261c25fdb2085a7b5172 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:33:50] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:34:10] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:34:37] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:35:45] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:35:47] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:35:48] "[32mGET /oauth/callback?code=14d87e9be9f4ea97021b HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:35:50] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:37:56] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:37:58] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:37:59] "[32mGET /oauth/callback?code=5994981898dd2be66f87 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:38:00] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:39:50] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:39:53] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:39:54] "[32mGET /oauth/callback?code=829f555ee09dda72fb7d HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:39:56] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:43:45] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:43:46] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:43:47] "[32mGET /oauth/callback?code=9dcf42db725d5141f9f8 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:43:48] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:44:16] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:46:54] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:46:56] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:46:57] "[32mGET /oauth/callback?code=c31ebf8c8bfc95006cdd HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:46:58] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:47:46] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:48:41] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:50:08] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:57:58] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:58:00] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:58:01] "[32mGET /oauth/callback?code=d9aab053e975bbf3098d HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:58:03] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 08:59:59] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:02:48] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:02:50] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:02:55] "[32mGET /oauth/callback?code=fd1c4ee6cf79a87fcc44 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:02:56] "GET /fetch_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:03:00] "GET /download_csv HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:11:30] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:11:31] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:11:32] "[32mGET /oauth/callback?code=864cb08f37eeeb021891 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:11:34] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:13:29] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:13:31] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:13:32] "[32mGET /oauth/callback?code=61f4211b298d42cf4cbc HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:13:33] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:16:02] "GET /fetch_data HTTP/1.1" 200 -
+INFO:root:Home page accessed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:16:08] "GET / HTTP/1.1" 200 -
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:16:09] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:16:10] "[32mGET /oauth/callback?code=6d28a701c41f49e45412 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:16:11] "GET /fetch_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 09:16:16] "GET /download_csv HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\codecs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\aliases.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_8.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\latin_1.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\io.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\abc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\site.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\os.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\stat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\_collections_abc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\ntpath.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\genericpath.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\_sitebuiltins.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\_bootlocale.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp1252.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\warnings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\abc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\machinery.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\collections\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\heapq.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\keyword.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\operator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\reprlib.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\collections\\abc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\contextlib.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Rishu Yadav\\Desktop\\balkanid-summer-internship-vit-vellore-2023-rishuyadav\\dbconnection.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Home page accessed.
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 10:54:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:OAuth login initiated.
+
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 10:54:09] "[32mGET /oauth/login HTTP/1.1[0m" 302 -
+INFO:root:OAuth callback initiated.
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\Lib\\shlex.py', reloading
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 10:54:10] "[32mGET /oauth/callback?code=8911b29aaccd228e8306 HTTP/1.1[0m" 302 -
+INFO:root:Data fetching initiated.
+
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-437-780
+INFO:root:Data fetching initiated.
+
+INFO:root:Connected to database successfully.
+INFO:root:Tables created successfully.
+INFO:root:Connection closed.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2023 10:54:12] "GET /fetch_data HTTP/1.1" 200 -
