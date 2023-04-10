@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Download CSV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .card {
+            max-width: 500px;
+            margin: 50px auto;
+            border: none;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+            background: #fff;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .card-header {
+            background: linear-gradient(45deg, #007bff, #3f51b5);
+            color: #fff;
+            font-weight: bold;
+            padding: 20px;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        .card-body {
+            padding: 30px;
+        }
+
+        .card-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .btn-download {
+            background: linear-gradient(45deg, #007bff, #3f51b5);
+            border: none;
+            font-weight: bold;
+            padding: 10px 30px;
+            font-size: 20px;
+            border-radius: 0;
+            margin-top: 30px;
+            transition: all 0.3s ease-in-out;
+            color: #fff;
+        }
+
+        .btn-download:hover {
+            background: linear-gradient(45deg, #3f51b5, #007bff);
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
+        Data stored successfully in db.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                Download CSV
+            </div>
+            <div class="card-body">
+                <p class="card-text">Click the button below to download the CSV file.</p>
+                <a href="{{ download_csv }}" class="btn btn-primary btn-download">Download</a>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

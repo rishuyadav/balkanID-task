@@ -1,0 +1,11 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block content %}
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Github API Fetcher</h1>
+      <p class="lead">Click the button below to authenticate with Github and fetch repository data.</p>
+      <a class="btn btn-primary btn-lg" href="{{ oauth_url }}" role="button">Authenticate with Github</a>
+    </div>
+  </div>
+{% endblock %}
